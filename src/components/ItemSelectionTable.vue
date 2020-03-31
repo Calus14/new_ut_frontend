@@ -3,7 +3,7 @@
 
 <template>
     <div item_selection_table>
-        <h1> {{item_type}} Table </h1>
+        <h1> {{item_type}} Configuration Items </h1>
         <table id="item_scroll_table" class="table-responsive table-striped table-bordered table-sm" cellspacing="0"
                width="100%">
             <thead>
@@ -48,7 +48,6 @@
 
       updateClickedItem(clickedItem) {
         this.clickedItem = clickedItem
-        console.log(clickedItem)
         this.setSelectedConfigurationItem(clickedItem)
       }
     }

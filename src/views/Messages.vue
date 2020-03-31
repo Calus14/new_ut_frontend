@@ -16,7 +16,7 @@
     name: "Messages",
     data() {
       return {
-        dataType: "messages"
+        dataType: "Messages"
       }
     },
     components: {
@@ -42,5 +42,5 @@
 </script>
 
 <style scoped>
-
+    @import './../styles/mainStyles.scss';
 </style>

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-sm-4 stage_column">
                     <ItemSelectionTable
-                            :item_type="this.itemType"
+                            :item_type="getCurrentlySelectedData"
                             :item_list="this.items"
                     />
                 </div>
@@ -36,9 +36,9 @@
 
     computed: {
       ...mapGetters([
-        "getSelectedConfigurationItem"
+        "getSelectedConfigurationItem",
+        "getCurrentlySelectedData"
       ]),
-
 
     },
 
@@ -54,6 +54,7 @@
     #main_stage {
         margin-left: 5%;
         margin-right: 5%;
+        width: 95%;
     }
 
     .main_container {

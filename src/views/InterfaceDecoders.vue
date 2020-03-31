@@ -16,7 +16,7 @@
     name: "InterfaceDecoders",
     data() {
       return {
-        dataType: "interfacedecoder"
+        dataType: "Interface Decoder"
       }
     },
     components: {
@@ -43,5 +43,5 @@
 </script>
 
 <style scoped>
-
+    @import './../styles/mainStyles.scss';
 </style>

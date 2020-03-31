@@ -16,7 +16,7 @@
     name: "TransportConfigurations",
     data() {
       return {
-        dataType: "transportConfigurations"
+        dataType: "Transport Configurations"
       }
     },
     components: {
@@ -42,5 +42,6 @@
 </script>
 
 <style scoped>
+    @import './../styles/mainStyles.scss';
 
 </style>

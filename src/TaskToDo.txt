@@ -1,0 +1,32 @@
+Messages:
+    X Make messages completely viewable and gui work as intended
+        O TODO fix an error with selecting the enumData Field
+        O TODO make the homeViewContainer spread more left and right
+    - validation of fields and bits (do we contact the backend)
+    - Be able to save a message and confirm on backend
+    - Be able create a new message and confirm on backend
+    - Be able to delete a message and confirm on backend
+
+Configuration Options:
+    - Create a Configuration option from home (In the future we will need to be able to edit a configuration
+      as well as view running things and other stuff
+    - Create new Configuration Run (combination of messages, decoder, transport, behavior
+
+Interface Decoders:
+    - Make interface decoders complitely viewable
+    - Be able to save a interface decoders and confirm on backend
+    - Be able create a new interface decoders and confirm on backend
+    - Be able to delete a interface decoders and confirm on backend
+
+Transport Configuration:
+    - Make Transport Configuration complitely viewable
+    - Be able to save a Transport Configuration and confirm on backend
+    - Be able create a new Transport Configuration and confirm on backend
+    - Be able to delete a Transport Configuration and confirm on backend
+
+
+Running config management (ideas)
+    - live injection of messages
+    - live log of messages, graphs etc
+    - creation of threads as well as pausing and stopping/starting
+

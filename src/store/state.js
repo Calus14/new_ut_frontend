@@ -21,7 +21,7 @@ export default {
     selectedConfigurationItem: {
         projectName: "",
         platformName: "",
-        messageAsJson: "legit string",
+        messageAsJson: "",
         configurationName: "",
         createdBy: ""
     }

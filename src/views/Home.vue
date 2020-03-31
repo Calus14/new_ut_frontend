@@ -33,3 +33,8 @@ export default {
   }
 }
 </script>
+
+<style >
+  @import './../styles/mainStyles.scss';
+
+</style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Main Logo" src="./assets/SimulationImage.jpg">
+    <img alt="Main Logo" src="@/assets/SimulationImage.jpg">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/messages">Messages</router-link> |
@@ -42,7 +42,6 @@
 </template>
 
 <script>
-
 import {mapActions} from "vuex";
 
 export default {
@@ -74,13 +73,13 @@ export default {
       this.setSelectedProject(this.project)
       this.setSelectedPlatform(this.platform)
       console.log(this.$store.state.currentlySelectedData)
-      if( this.$store.state.currentlySelectedData === "messages"){
+      if( this.$store.state.currentlySelectedData === "Messages"){
         this.loadMessages()
       }
-      else if( this.$store.state.currentlySelectedData === "interfacedecoder"){
+      else if( this.$store.state.currentlySelectedData === "Interface Decoder"){
         this.loadTransportConfigurations()
       }
-      else if( this.$store.state.currentlySelectedData === "transportConfigurations"){
+      else if( this.$store.state.currentlySelectedData === "Transport Configurations"){
         this.loadTransportConfigurations()
       }
     },
@@ -103,7 +102,7 @@ export default {
   margin-top: 60px;
 }
 
-*.center-block {
+.center-block {
   text-align:center;
   width:30%;
   margin: auto;
